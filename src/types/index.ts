@@ -17,3 +17,13 @@ export interface Project {
   githubUrl?: string;
   documentationUrl?: string;
 }
+
+export interface Writing {
+  title: string;
+  description: string;
+  date: string;
+  readTime: string;
+  documentUrl: string;
+  category: string;
+  tags: string[];
+}

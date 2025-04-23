@@ -18,17 +18,21 @@ const Hero = () => {
           className="text-4xl md:text-6xl font-bold mb-4 md:mb-6"
         />
         
-        <p className="text-lg md:text-xl mb-4 md:mb-6">Experienced and Interested in</p>
+        <p className="text-lg md:text-xl mb-4 md:mb-6">working on and deeply interested in</p>
         
         <TypeAnimation
           sequence={[
-            'ML/AI Engineer',
+            'MLOps',
             2000,
-            'Data Analyst',
+            'Model Interpretability & XAI',
             2000,
-            'Financial Technology',
+            'Transfer Learning & LLMs',
             2000,
-            'Full Stack Developer',
+            'Time Series Analysis & Forecasting',
+            2000,
+            'Feature Engineering',
+            2000,
+            'Data-Centric AI',
             2000,
           ]}
           wrapper="p"

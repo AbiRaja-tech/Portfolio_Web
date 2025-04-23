@@ -3,6 +3,7 @@ import TimelineSection from './components/TimelineSection';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Certifications from './components/Certifications';
+import Writings from './components/Writings';
 import { education } from './data/education';
 import { experience } from './data/experience';
 
@@ -14,6 +15,7 @@ function App() {
       <TimelineSection title="Experience" items={experience} />
       <Skills />
       <Projects />
+      <Writings />
       <Certifications />
     </div>
   );
