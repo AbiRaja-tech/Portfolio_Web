@@ -19,6 +19,7 @@ export interface Project {
 }
 
 export interface Writing {
+  id: string;
   title: string;
   description: string;
   date: string;
